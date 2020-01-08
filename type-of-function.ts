@@ -54,12 +54,12 @@
 // 7.重载
 // 重载允许一个函数接受不同数量或类型的参数时，作出不同的处理
 // 注意，TypeScript 会优先从最前面的函数定义开始匹配，所以多个函数定义如果有包含关系，需要优先把被包含的定义写在前面。
-function reverse(x: number): number;
-function reverse(x: string): string;
-function reverse(x: number | string): number | string {
-    if (typeof x === 'number') {
-        return Number(x.toString().split('').reverse().join(''));
-    } else if (typeof x === 'string') {
-        return x.split('').reverse().join('');
-    }
-}
+// function reverse(x: number): number;
+// function reverse(x: string): string;
+// function reverse(x: number | string): number | string {
+//     if (typeof x === 'number') {
+//         return Number(x.toString().split('').reverse().join(''));
+//     } else if (typeof x === 'string') {
+//         return x.split('').reverse().join('');
+//     }
+// }

@@ -34,7 +34,7 @@
 
 // 四.外部枚举；使用declare enum 定义的枚举类型,与声明语句一样常出现在声明文件中。
 // 同时使用 declare 和 const 也是可以的
-declare enum Hours{
-  one,two,three
-}
-let hours = [Hours.one,Hours.two,Hours.three]
+// declare enum Hours{
+//   one,two,three
+// }
+// let hours = [Hours.one,Hours.two,Hours.three]
